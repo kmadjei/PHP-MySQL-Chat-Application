@@ -21,7 +21,7 @@
                     </div>
                     <div class="field input">
                         <label for="">Password</label>
-                        <input type="text" placeholder="Enter your password">
+                        <input type="password" placeholder="Enter your password">
                         <i class="fas fa-eye"></i>
                     </div>
                     <div class="field button">
