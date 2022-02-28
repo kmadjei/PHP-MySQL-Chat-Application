@@ -28,7 +28,7 @@
                         <input type="submit" value="Continue to Chat">
                     </div>
                     <div class="link">
-                        Not yet signed up? <a href="index.html">Signup Now!</a>
+                        Not yet signed up? <a href="index.php">Signup Now!</a>
                     </div>
 
             </form>
