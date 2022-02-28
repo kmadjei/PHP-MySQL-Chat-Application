@@ -1,10 +1,5 @@
 # PHP-MySQL-Chat-Application
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-![CBC Logo](https://canadianbusinesscollege.com/wp-content/uploads/2020/09/CBC-New-Logo-Website.png)
-
-# Your Project's Name
-
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
@@ -44,6 +39,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
+
+
+### Bugs During development
+
+- Validation error messages not showing up on the client side browser
+    - Code for injecting error messages was un-commented
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 

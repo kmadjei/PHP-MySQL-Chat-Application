@@ -69,6 +69,6 @@
         }
 
     }else {
-        echo "ALl input field are required!";
+        echo "All input field are required!";
     }
 ?>

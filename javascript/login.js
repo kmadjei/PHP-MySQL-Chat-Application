@@ -9,7 +9,7 @@ form.onsubmit = (e) => {
 continueBtn.onclick = () => {
     // let's start Ajax
     let xhr = new XMLHttpRequest(); //creating XML object
-    xhr.open("POST", "php/signup.php", true);
+    xhr.open("POST", "php/login.php", true);
     xhr.onload = () => {
         if(xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200){
@@ -19,10 +19,9 @@ continueBtn.onclick = () => {
                 if (data == "success") {
                     location.href = "users.php"
                 } else {
-                    //
-                    errorText.style.display = "block"; 
+                    // 
                     errorText.textContent = data;
-                    
+                    errorText.style.display = "block";
                 }
 
             }
