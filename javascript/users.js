@@ -42,7 +42,7 @@ setInterval(() => {
         if(xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200){
                 let data = xhr.response;
-                console.log(data);
+                //console.log(data);
                 if (!searchBar.classList.contains("active")){
                     // if the active class is not added to the search bar element then add this data
                     usersList.innerHTML = data;

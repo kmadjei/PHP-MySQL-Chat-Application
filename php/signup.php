@@ -36,8 +36,6 @@
 
                         // let's move the user uploaded img to  our particular folder
                         $new_img_name = $time . $img_name;
-                       
-                        $status = "Active now"; // once user signed then his status will be active now
 
                         if (move_uploaded_file($tmp_name, "images/" . $new_img_name)) { //if user upload img move to our folder successfully
                             $status = "Active now"; // once user signed up then his status will be active now

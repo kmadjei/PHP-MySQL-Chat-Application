@@ -28,7 +28,7 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Must improve login
 
 ## Technologies Used
 
@@ -45,6 +45,39 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - Validation error messages not showing up on the client side browser
     - Code for injecting error messages was un-commented
+    - changed
+- users page only show current user logged in without listing the status of other users
+    -   changed the **php/users.php** script to contain the following code
+    
+    ```php
+        <?php 
+            session_start();
+            include_once "config.php";
+            $outgoing_id = $_SESSION['unique_id'];
+            $sql = mysqli_query($conn, "SELECT * FROM users WHERE NOT unique_id = {$outgoing_id} ORDER BY user_id DESC");
+            $output = "";
+
+            if (mysqli_num_rows($sql) == 0) {
+                $output .= "No users are available to chat with!";
+            } elseif (mysqli_num_rows($sql) > 0) {
+                include "data.php";
+            }
+            echo $output;
+        ?>
+    ```
+
+- logging in does not redirect user to chat page
+    - changed `echo "Success";` to `echo "success";` in **php/login.php**
+
+- chat message not being sent and received from database
+    - resolution steps:
+        - Corrected `$SESSION[]` to `$_SESSION[]` for **insert-chat.php and get-chat.php** files
+        - included the `name=message` attribute for the input-field element in the **chat.php** file
+        - Corrected 
+        
+        ``` $message = mysqli_real_escape_string($conn, $_POST['outgoing_id']); to $message = mysqli_real_escape_string($conn, $_POST['message']); ```
+
+        for **php/insert.php** file
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
