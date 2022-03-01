@@ -50,7 +50,7 @@
                                 if (mysqli_num_rows($sql3) > 0) {
                                     $row = mysqli_fetch_assoc($sql3);
                                     $_SESSION['unique_id'] = $row['unique_id']; // using this session we used user unique_id in other php file
-                                    echo "Success";
+                                    echo "success";
                                 }
                             }
 
