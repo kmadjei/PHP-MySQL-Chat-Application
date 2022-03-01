@@ -75,11 +75,29 @@ In this section, you should mention all of the languages, frameworks, libraries,
         - included the `name=message` attribute for the input-field element in the **chat.php** file
         - Corrected 
         
-        ``` $message = mysqli_real_escape_string($conn, $_POST['outgoing_id']); to $message = mysqli_real_escape_string($conn, $_POST['message']); ```
+        ```php 
+            $message = mysqli_real_escape_string($conn, $_POST['outgoing_id']); 
+            To 
+            $message = mysqli_real_escape_string($conn, $_POST['message']); 
+        ```
 
         for **php/insert.php** file
 
 - Warning: Undefined array key "outgoig_msg_id" in C:\xampp\htdocs\PHP-Projects\chat app\php\data.php on line 18
+    - Resolution:
+
+    Changed
+    ```php
+        ($outgoing_id == $row2['outgoing_msg_id']) ? $you = "You: " : $you = "";
+    ```
+
+    To this 
+    ```php 
+    if(isset($row2['outgoing_msg_id'])){
+            ($outgoing_id == $row2['outgoing_msg_id']) ? $you = "You: " : $you = "";
+        }else{
+            $you = ""; 
+    ```
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
