@@ -1,23 +1,23 @@
 # PHP-MySQL-Chat-Application
 
-One or two paragraphs providing an overview of your project.
+A live chat application with authentication, built with PHP, MySQL and Ajax.
 
-Essentially, this part is your sales pitch.
-
-👉 []()🚀
+👉[View Deployed Project]()🚀
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+**Site Owner's Goal** 
+    
+    In a project like this, the site owner's goal will be to provide a space where user's can network with like minded individuals.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+**User's Goal** 
+    
+    User's may be interested in using the Chat application for networking with like minded individuals, seeking future career propects, making new friends and so on.
 
 ## Features
+    In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -132,12 +132,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The  entire content for building the [PHP Live Chat Application](https://youtu.be/VnvzxGWiK54) was provided and led by [CodingNepal](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA) Youtube channel.
 
-### Media
-- The photos used in this site were obtained from ...
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Through this one project alone I was able to learn MySQL queries, PHP authentication, JavaScript-PHP Ajax, and File submission, along with new knowledge on Javascript functions and CSS selectors.
+    - I am grateful for the valuable lesson and will recommend any PHP full-stack developer to give it a go.
 
