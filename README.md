@@ -2,7 +2,7 @@
 
 A live chat application with authentication, built with PHP, MySQL and Ajax.
 
-👉[View Deployed Project]()🚀
+👉[View Deployed Project](https://php-mysql-chat-app.herokuapp.com/)🚀
  
 ## UX
 
@@ -12,7 +12,7 @@ A live chat application with authentication, built with PHP, MySQL and Ajax.
 
 **User's Goal** 
     
-    User's may be interested in using the Chat application for networking with like minded individuals, seeking future career propects, making new friends and so on.
+    User's may be interested in using the Chat application for networking with like minded individuals, seeking future career prospects, making new friends and so on.
 
 ## Features
     In this section, you should go over the different parts of your project, and describe each in a sentence or so.
