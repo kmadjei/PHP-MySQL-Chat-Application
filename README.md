@@ -6,10 +6,10 @@ A live chat application with authentication, built with PHP, MySQL and Ajax.
  
 ## UX
 
-**Site Owner's Goal**  
+### Site Owner's Goal
 In a project like this, the site owner's goal will be to provide a space where user's can network with like minded individuals.
 
-**User's Goal** 
+### User's Goal
 User's may be interested in using the Chat application for networking with like minded individuals, seeking future career prospects, making new friends and so on.
 
 ## Features
